@@ -1,0 +1,80 @@
+dim peso as integer
+dim agua as integer
+dim meta as integer
+
+print "Digite seu peso:"
+input peso
+
+print "Digite a quantidade de agua em ml ingerida hoje"
+input agua
+
+meta = peso * 35
+
+if agua >= meta then
+    Print "Meta atingida!"
+else
+    Print "Meta nao atingida"
+end if
+
+sleep
+
+'-------------------------------------------------------
+
+dim pin as integer
+dim senha as integer
+
+pin = 4321
+
+print "Senha:"
+input senha
+
+if pin = senha then
+    print "Transacao autorizada!"
+else
+    while senha<>pin
+        print "PIN invalido. Tente novamente"
+        input senha
+    wend
+    print "Transacao autorizada!"
+end if
+    
+sleep
+
+'--------------------------------------------------------
+
+dim horas as integer
+dim minutos as integer
+dim segundos as integer
+
+print "Horas:"
+input horas
+
+minutos = horas * 60
+
+segundos = minutos * 60
+
+print horas;" horas"
+print minutos;" minutos"
+print segundos;" segundos"
+
+sleep
+
+'-----------------------------------------------------
+
+dim dist as integer
+dim t as integer
+dim pace as double
+
+print "Distancia percorrida no treino em km:"
+input dist
+
+print "Tempo gasto total em minutos:"
+input t
+
+pace = t / dist
+
+print "Pace medio: ";pace;" min/km"
+
+sleep
+
+'--------------------------------------------------
