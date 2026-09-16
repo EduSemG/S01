@@ -15,7 +15,7 @@ int combinar_equipes(int n)
 int main() 
 {   
     int n;
-    cout<<"Digite o tamanho do chaveamento (n): ";
+    cout<<"Digite o tamanho do chaveamento (n): "<<endl;
     cin>>n;
 
     cout<<"Total de cenarios de confrontos possiveis: "<<combinar_equipes(n);
