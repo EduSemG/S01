@@ -63,7 +63,7 @@ int main() {
     membros.push_back(new Professor("Ruan", "S01"));
     
 
-    cout << "=== Apresentações na FETIN ===" << endl;
+    cout << "=== FETIN ===" << endl;
     
     //polimorismo em acao
     for (MembroInatel* m : membros) {
