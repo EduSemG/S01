@@ -58,7 +58,7 @@ int main() {
     vector<MembroInatel*> membros;
 
     //new criando objetos e devolve ponteiros
-    membros.push_back(new MembroInatel("Maria"));
+    membros.push_back(new MembroInatel("Vanessa"));
     membros.push_back(new Aluno("Eduardo", "Engenharia de Software"));
     membros.push_back(new Professor("Ruan", "S01"));
     
