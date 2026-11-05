@@ -1,4 +1,4 @@
-package org.Ex1;
+package Ex1;
 
 //heranca
 public class DemonioDoFogo extends Morador {
