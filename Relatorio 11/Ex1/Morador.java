@@ -1,4 +1,4 @@
-package org.Ex1;
+package Ex1;
 
 //classe abstrata
 public abstract class Morador {
