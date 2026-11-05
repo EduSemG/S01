@@ -9,11 +9,9 @@ public class Main {
 
         MapaDeAvistamentos mapa = new MapaDeAvistamentos();
 
-        //registrando cada um em um local
         mapa.registrar("Tunel abandonado", vovo);
         mapa.registrar("Predio da escola", serpo);
 
-        //investigando os dois locais registrados
         mapa.investigar("Tunel abandonado");
         mapa.investigar("Predio da escola");
 
